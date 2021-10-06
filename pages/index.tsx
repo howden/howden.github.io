@@ -36,9 +36,7 @@ type HeaderProps = {
 const Header = ({ color }: HeaderProps) => {
   return (
     <header style={{ color }}>
-      <div className="picture">
-        <img src="assets/me.png" alt="Picture of the author" />
-      </div>
+      <img src="assets/me.png" alt="Picture of the author" />
       <div className="greeting">
         <p>Hey,</p>
         <p>I&apos;m Charlie.</p>
