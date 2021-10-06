@@ -16,7 +16,7 @@ const Page = () => {
     <>
       <Head>
         <title>howden.dev</title>
-        <meta name="description" content="Personal webpage for howden" />
+        <meta name="description" content="howden's personal website" />
         <link rel="icon" href={favicon} />
         <link rel="icon" type="image/png" sizes="512x512" href={icon}></link>
       </Head>
