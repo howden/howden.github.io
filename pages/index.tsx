@@ -51,7 +51,7 @@ const Content = () => {
       <p>That&apos;s me above, hi!</p>
       <p>
         I&apos;m a software engineer who likes solving interesting problems,
-        playing with new technologies, and maintaining open source projects.
+        playing with new technologies, and working on open source projects.
       </p>
       <p>
         <em>Overly-fancy web design for the sake of it</em> isn&apos;t really my
