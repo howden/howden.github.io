@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Source+Code+Pro:wght@600&display=swap");
+
+// Shortcut to apply flex
+@mixin flex($direction, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: #090c15;
+}
+
+main {
+  // Apply padding around the whole page
+  // to scale with the viewport size.
+  padding: 7vh 4vw;
+
+  // Limit width on large displays & center
+  // the remaining section.
+  max-width: 60em;
+  margin: 0 auto;
+
+  color: #ffffff;
+}
+
+// The top header section
+header {
+  @include flex(row, space-around);
+
+  // "Profile picture" on the left hand size of the header
+  > .picture {
+    @include flex(column, space-around);
+    width: 30%;
+
+    img {
+      // Show the image in a circular frame
+      border-radius: 50%;
+      border-style: solid;
+      border-width: 3px;
+    }
+  }
+
+  // Greeting message "Hey, ..."
+  > .greeting {
+    @include flex(column, center);
+    width: 60%;
+
+    p {
+      font: bold min(12vw, 7em) "Aladin";
+      line-height: 1em;
+      margin: 0;
+    }
+  }
+}
+
+// The main text content of the page
+article {
+  font: 1.5em "Cabin", sans-serif;
+  margin-top: 2em;
+  padding: 0.5em;
+
+  p {
+    margin: 0.5em;
+  }
+
+  a {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    color: #727ca5;
+    text-decoration: none;
+    transition: color 0.5s;
+
+    :hover,
+    :active {
+      color: #a1a8c2;
+    }
+  }
+}
