@@ -18,7 +18,12 @@ const Page = () => {
         <title>howden.dev</title>
         <meta name="description" content="howden's personal website" />
         <link rel="icon" href={favicon} />
-        <link rel="icon" type="image/png" sizes="512x512" href={icon}></link>
+        <link rel="icon" type="image/png" sizes="512x512" href={icon} />
+        <link rel="preload" as="image" href="assets/me.png"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Source+Code+Pro:wght@600&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <main>
@@ -36,7 +41,11 @@ type HeaderProps = {
 const Header = ({ color }: HeaderProps) => {
   return (
     <header style={{ color }}>
-      <img src="assets/me.png" alt="Picture of the author" />
+      <div className="picture">
+        <div>
+          <img src="assets/me.png" alt="Picture of the author" />
+        </div>
+      </div>
       <div className="greeting">
         <p>Hey,</p>
         <p>I&apos;m Charlie.</p>
