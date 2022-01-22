@@ -21,7 +21,7 @@ const Page = () => {
         <link rel="icon" type="image/png" sizes="512x512" href={icon} />
         <link rel="preload" as="image" href="assets/me.png"></link>
         <link
-          href="https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Source+Code+Pro:wght@600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Aladin&family=Cabin&family=Ubuntu+Mono:wght@700&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -63,13 +63,9 @@ const Content = () => {
         playing with new technologies, and working on open source projects.
       </p>
       <p>
-        <em>Overly-fancy web design for the sake of it</em> isn&apos;t really my
-        thing, so this site is intentionally fairly boring and empty until I
-        make something interesting to put here, sorry!
-      </p>
-      <p>
-        In the meantime, you can follow me on GitHub,{" "}
-        <a href="https://github.com/howden">@howden</a>.
+        I can be reached via email at{" "}
+        <a href="mailto:hello@howden.dev">hello@howden.dev</a> or you can find
+        me on GitHub, <a href="https://github.com/howden">@howden</a>.
       </p>
     </article>
   );
