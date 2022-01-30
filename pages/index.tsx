@@ -63,9 +63,9 @@ const Content = () => {
         playing with new technologies, and working on open source projects.
       </p>
       <p>
-        I can be reached via email at{" "}
-        <a href="mailto:hello@howden.dev">hello@howden.dev</a> or you can find
-        me on GitHub, <a href="https://github.com/howden">@howden</a>.
+        You can reach me by email at{" "}
+        <a href="mailto:hello@howden.dev">hello@howden.dev</a> or find me on
+        GitHub, <a href="https://github.com/howden">@howden</a>.
       </p>
     </article>
   );
