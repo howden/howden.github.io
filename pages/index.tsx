@@ -55,13 +55,13 @@ const Header = ({ color }: HeaderProps) => {
 };
 
 const Content = () => {
+  // <p>
+  //   I&apos;m a software engineer who likes solving interesting problems,
+  //   playing with new technologies, and working on open source projects.
+  // </p>
   return (
     <article>
       <p>That&apos;s me above, hi!</p>
-      <p>
-        I&apos;m a software engineer who likes solving interesting problems,
-        playing with new technologies, and working on open source projects.
-      </p>
       <p>
         You can reach me by email at{" "}
         <a href="mailto:hello@howden.dev">hello@howden.dev</a> or find me on
