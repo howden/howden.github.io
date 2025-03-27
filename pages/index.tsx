@@ -46,9 +46,8 @@ const Header = ({ color }: HeaderProps) => {
           <img src="assets/me.png" alt="Picture of the author" />
         </div>
       </div>
-      <div className="greeting">
-        <p>Hey,</p>
-        <p>I&apos;m Charlie.</p>
+      <div className="title">
+        <p>howden.dev</p>
       </div>
     </header>
   );
